@@ -49,6 +49,8 @@ mongoose
   .catch((e) => {
     console.log(e);
   });
+
+// server setup
 app.listen(process.env.PORT, () => {
   console.log(`Server is Running on PORT - ${process.env.PORT}`);
 });
